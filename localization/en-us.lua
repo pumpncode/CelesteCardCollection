@@ -3,6 +3,35 @@ return {
 		["dictionary"] = {
 			["k_ccc_what"] = "???",
 			["k_ccc_secret"] = "Secret",
+			
+			["k_ccc_a_jslot"] = "+1 Joker Slot",
+			["k_ccc_a_pack"] = "+1 Pack",
+			["k_ccc_applied"] = "Applied",
+			["k_ccc_broken"] = "Broken",
+			["k_ccc_correct"] = "Correct",
+			["k_ccc_discarded"] = "Discarded",
+			["k_ccc_equal"] = "Equal",
+			["k_ccc_fire"] = "Fire",
+			["k_ccc_incorrect"] = "Incorrect",
+			["k_ccc_redraw"] = "Redraw",
+			["k_ccc_reset"] = "Reset",
+			["k_ccc_steel"] = "Steel",
+			["k_ccc_swapped"] = "Swapped",
+			["k_ccc_upgraded"] = "Upgraded",
+			
+			["k_ccc_active_ex"] = "Active!",
+			["k_ccc_fire_ex"] = "Fire!",
+			["k_ccc_prevent_ex"] = "Prevent!",
+			["k_ccc_standard_ex"] = "Standard!",
+			["k_ccc_strawberry_ex"] = "Strawberry!",
+			
+			["k_ccc_safe_eq"] = "Safe..?",
+		},
+		["v_dictionary"] = {
+			["ccc_a_ante_minus"] = "-#1# Ante",
+			["ccc_a_discard"] = "+#1# Discard",
+			["ccc_a_cards"] = "+#1# Cards",
+			["ccc_hardlist_star"] = "#1#-Star!",
 		},
 		["labels"] = {
 			["k_ccc_secret"] = "Secret",
@@ -532,10 +561,10 @@ return {
 				["text"] = {
 					"Forces 1 card to",
 					"{C:attention}always{} be selected",
-					"Adds {C:green}+#1#{} to {C:attention}listed{} {C:green,E:1}probabilities{}",
+					"{C:green}#1#{} to {C:green,E:1}denominators{}",
 					"on defeat of {C:attention}Boss Blind",
-					"{C:inactive}(ex: {C:green}2 in 7{C:inactive} -> {C:green}3 in 7{C:inactive})",
-					"{C:inactive}(Currently {C:green}+#2#{C:inactive})",
+					"{C:inactive}(ex: {C:green}2 in 7{C:inactive} -> {C:green}2 in #3#{C:inactive})",
+					"{C:inactive}(Currently {C:green}#2#{C:inactive})",
 				},
 			},
 			["j_ccc_checkpoint"] = {
@@ -595,10 +624,10 @@ return {
 			["j_ccc_ominousmirror"] = {
 				["name"] = "Ominous Mirror",
 				["text"] = {
-					"{C:green}#1# in #3#{} chance to add a",
+					"{C:green}#1# in #2#{} chance to add a",
 					"permanent, {C:dark_edition}Mirrored{} copy of",
 					"each scored card to your hand,",
-					"{C:green}#1# in #4#{} chance to {C:inactive}break{}",
+					"{C:green}#3# in #4#{} chance to {C:inactive}break{}",
 					"at end of round, becoming",
 					"a {C:attention}Broken Mirror{}",
 				},
